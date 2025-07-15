@@ -1,4 +1,4 @@
-import Appl from "./ExplainJSX";
+import Appl, { TrafficLight } from "./ExplainJSX";
 import Header from "./Header"
 import Login, { Dashboard, Profile, Settings } from "./UserComponent";    // Importing the Header component and the Login component as default,
 
@@ -14,7 +14,8 @@ function App() {  // This is the main App component
       <Settings />
       <Dashboard />
 
-      <Appl />  {/* This is the ExplainJSX component that demonstrates JSX syntax */}
+      <Appl />
+      <TrafficLight />
     </div>
   );
 }
