@@ -1,3 +1,4 @@
+import Appl from "./ExplainJSX";
 import Header from "./Header"
 import Login, { Dashboard, Profile, Settings } from "./UserComponent";    // Importing the Header component and the Login component as default,
 
@@ -12,6 +13,8 @@ function App() {  // This is the main App component
       <Profile />
       <Settings />
       <Dashboard />
+
+      <Appl />  {/* This is the ExplainJSX component that demonstrates JSX syntax */}
     </div>
   );
 }
