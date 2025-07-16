@@ -1,4 +1,4 @@
-import ClickEventFunction from "./ClickEventFunction";
+import UseStateAndHooks, { Fruit } from "./UseStateAndHooks";
 
 
 function App() {  
@@ -6,7 +6,8 @@ function App() {
   
   return (
     <div>
-      <ClickEventFunction />
+      <UseStateAndHooks />
+      <Fruit />
     </div>
   );
 }
