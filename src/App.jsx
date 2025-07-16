@@ -1,11 +1,12 @@
-import ToggleOrHideAndShow from "./ToggleOrHideAndShow";
+import MultipleCondition from "./MultipleCondition";
+
 
 
 function App() {  
     
   return (
     <div>
-      <ToggleOrHideAndShow />
+      <MultipleCondition />
     </div>
   );
 }
