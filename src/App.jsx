@@ -1,13 +1,11 @@
-import UseStateAndHooks, { Fruit } from "./UseStateAndHooks";
+import ToggleOrHideAndShow from "./ToggleOrHideAndShow";
 
 
 function App() {  
-  
-  
+    
   return (
     <div>
-      <UseStateAndHooks />
-      <Fruit />
+      <ToggleOrHideAndShow />
     </div>
   );
 }
