@@ -1,12 +1,12 @@
-import CurlyBracesUse from "./CurlyBracesUse";
+import ClickEventFunction from "./ClickEventFunction";
 
 
-function App() {  // This is the main App component
+function App() {  
   
-  //alert(sum())  // This will alert the sum of two numbers when the App component is rendered
+  
   return (
     <div>
-      <CurlyBracesUse />
+      <ClickEventFunction />
     </div>
   );
 }
