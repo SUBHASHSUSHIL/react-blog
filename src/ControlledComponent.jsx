@@ -40,5 +40,12 @@ export function Controlled() {
                 <h3>{email}</h3>
             </form>
         </div>
+
+        // A controlled component is a component that does not maintain its own state, but instead receives its current value and an 
+        // onChange handler as props. This allows the parent component to control the state of the input field.
+
+        //Single source of truth: In a controlled component, the value of the input field is always derived from the state of the parent component.
+        //validation and manipulation before submission: Since the parent component controls the state, it can easily validate and manipulate the input value before submission.
+        //Dynamic updates values: The parent component can dynamically update the value of the input field based on user interactions or other events.
     );
 }
