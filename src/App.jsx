@@ -1,10 +1,11 @@
-import InputFieId from "./InputField";
+import { Controlled } from "./ControlledComponent";
+
 
 function App() {  
     
   return (
     <div>
-      <InputFieId />
+      <Controlled />
     </div>
   );
 }
