@@ -1,11 +1,12 @@
-import { Controlled } from "./ControlledComponent";
+import Checkboxs from "./Checkboxs";
 
 
 function App() {  
     
   return (
     <div>
-      <Controlled />
+      <h1>Checkbox Example</h1>
+      <Checkboxs />
     </div>
   );
 }
