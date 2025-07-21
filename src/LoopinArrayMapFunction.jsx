@@ -1,3 +1,5 @@
+import { use } from "react";
+import ReuseComponent from "./ReuseComponents";
 
 
 function LoopinArrayMapFunction() {
@@ -27,7 +29,18 @@ function LoopinArrayMapFunction() {
   
   return (
     <div>
-      <h1>Looped Array Example dynamic data</h1>
+        <h1>Reuse Component</h1>
+
+        {
+          userData.map((user) => (
+            <div key={user.id}>
+              <ReuseComponent data={user} />
+            </div>
+          ))
+        }
+
+
+      {/* <h1>Looped Array Example dynamic data</h1>
       <table border={'1'}>
         <thead>
           <tr>
@@ -79,7 +92,7 @@ function LoopinArrayMapFunction() {
             <td>32</td>
           </tr>
         </tbody>
-      </table>
+      </table> */}
     </div>
   );
 }
