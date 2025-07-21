@@ -27,7 +27,7 @@ function LoopinArrayMapFunction() {
   
   return (
     <div>
-      <h1>Looped Array Example</h1>
+      <h1>Looped Array Example dynamic data</h1>
       <table border={'1'}>
         <thead>
           <tr>
@@ -48,7 +48,7 @@ function LoopinArrayMapFunction() {
         </tbody>
       </table>
 
-      <h2>Dommy Data</h2>
+      <h2>Dommy Data ("Static")</h2>
       <table border={"1"}>
         <thead>
           <tr>
