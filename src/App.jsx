@@ -1,12 +1,13 @@
-import Checkboxs from "./Checkboxs";
+import RadioButton from "./RadioButton";
+
 
 
 function App() {  
     
   return (
     <div>
-      <h1>Checkbox Example</h1>
-      <Checkboxs />
+      <h1>Welcome to the Radio Button Example</h1>
+      <RadioButton />
     </div>
   );
 }
