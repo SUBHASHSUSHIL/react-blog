@@ -1,13 +1,11 @@
-import RadioButton from "./RadioButton";
-
+import LoopinArrayMapFunction from "./LoopinArrayMapFunction";
 
 
 function App() {  
     
   return (
     <div>
-      <h1>Welcome to the Radio Button Example</h1>
-      <RadioButton />
+      <LoopinArrayMapFunction />  
     </div>
   );
 }
