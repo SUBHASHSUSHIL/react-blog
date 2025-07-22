@@ -12,7 +12,7 @@ function ClickEventFunction() {
     alert(`Hello ${name}`);
     }
 
-  return (
+  return ( 
     <div>
       <button onClick={handleClick}>Click Me</button>
         <button onClick={callFun}>Call Function</button>

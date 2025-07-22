@@ -29,7 +29,7 @@ function Checkboxs() {
             <br /><br />
             <input onChange={handleSkills} type="checkbox" id="csharp" value="csharp" />
             <label htmlFor="csharp">C#</label>
-
+             
             <h1>{skills.toString()}</h1>
         </div>
     );
