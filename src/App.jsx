@@ -1,10 +1,11 @@
-import NestedLoop from "./NestedLoop";
+import HookUseEffect from "./HookUseEffect";
 
-function App() {  
-    
+
+function App() {
+
   return (
     <div>
-     <NestedLoop />
+      <HookUseEffect />
     </div>
   );
 }
