@@ -16,7 +16,7 @@ function App() {
     }
     <button onClick={()=>setCount(count + 1)} >Counter</button>
     <button onClick={()=>setData(data + 1)}>Data</button> 
-     <button onClick={()=>setDisplay(!display)}>toggle</button>  /* example in unmounting */
+     <button onClick={()=>setDisplay(!display)}>toggle</button>  {/* example in unmounting */}
     </div>
   );
 }

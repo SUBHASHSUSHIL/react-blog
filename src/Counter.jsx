@@ -2,22 +2,36 @@ import { useEffect } from "react";
 
 const Counter=({count, data})=>{
 
-    const HandleCount=()=>{
-        console.log("HandlerCount called.")
-    }
+    // const HandleCount=()=>{
+    //     console.log("HandlerCount called.")
+    // }
 
+
+    // useEffect(()=>{
+    // HandleCount();
+    // },[])
+
+    // const Hander=()=>{
+    //     console.log("Hi Mr.Das")
+    // }
+
+    // useEffect(()=>{
+    //     Hander();
+    // },[data])
 
     useEffect(()=>{
-    HandleCount();
+        console.log("mounting phase only");  //example in mounting one time call in display ui
     },[])
 
-    const Hander=()=>{
-        console.log("Hi Mr.Das")
-    }
+    useEffect(()=>{
+        console.log("update phase only");    //example in updating multiple times hits  in multiple times call
+    },[data])
 
     useEffect(()=>{
-        Hander();
-    },[data])
+        return () => {
+            console.log("unmounting phase only");
+        }
+    },[])
 
     return(
         <div>
