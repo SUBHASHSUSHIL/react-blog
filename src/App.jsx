@@ -1,13 +1,13 @@
-import DynamicConditionalInlineStyle from "./DynamicConditionalInlineStyle";
+import ExternalStyle from "./ExternalStyle";
 
 function App() {
   
 
   return (
     <div>
-    <DynamicConditionalInlineStyle />
+    <ExternalStyle />
     </div>
-  );
+  ); 
 }
 
 export default App;
