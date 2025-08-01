@@ -1,11 +1,11 @@
-import ExternalStyle from "./ExternalStyle";
+import ModuleCSS from "./ModuleCSS";
 
 function App() {
   
 
   return (
     <div>
-    <ExternalStyle />
+    <ModuleCSS />
     </div>
   ); 
 }
