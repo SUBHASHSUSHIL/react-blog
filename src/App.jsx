@@ -1,11 +1,11 @@
-import InlineStyleCSS from "./InlineStyleCSS";
+import DynamicConditionalInlineStyle from "./DynamicConditionalInlineStyle";
 
 function App() {
   
 
   return (
     <div>
-    <InlineStyleCSS />
+    <DynamicConditionalInlineStyle />
     </div>
   );
 }
