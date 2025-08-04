@@ -4,14 +4,14 @@ function UnControlledComponent(){
 
     const handleForm = (event)=>{
         event.preventDefault();
-        const user = document.querySelector("#user").value;
+        const user = document.querySelector("#user").value;    //use in dom manipulation
         const password = document.querySelector("#password").value;
         console.log(user, password);
     }
 
     const handleFormref =(event) =>{
         event.preventDefault();
-        const user = userref.current.value;
+        const user = userref.current.value;                    // use in useRef
         const password = passwordref.current.value;
         console.log("HandlerFormRef", user, password);
     }
