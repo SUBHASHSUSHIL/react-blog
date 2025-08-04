@@ -1,11 +1,11 @@
-import UseRef from "./UseRef";
+import UnControlledComponent from "./UnControlledComponent";
 
 
 function App() {
   
   return (
     <div>
-    <UseRef />
+    <UnControlledComponent />
     </div>
   ); 
 }
