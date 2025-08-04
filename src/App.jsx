@@ -1,21 +1,10 @@
-import PassFunction from "./PassFunction";
+import UseFormStatus from "./UseFormStatus";
 
 function App() {
   
-  const displayName=(name)=>{
-    alert(name)
-  }
-
-  return (
+   return (
     <div>
-      <h1>Call Parent component Function from child component</h1>
-    <PassFunction displayName={displayName} name="Sushil Thakur" />
-    <PassFunction displayName={displayName} name="Sandeep Thakur" />
-    <PassFunction displayName={displayName} name="Pradip Thakur" />
-    <PassFunction displayName={displayName} name="Subhash Thakur" />
-    <PassFunction displayName={displayName} name="Baijunath Thakur" />
-    <PassFunction displayName={displayName} name="Nandkishor Thakur" />
-
+      <UseFormStatus />
     </div>
   ); 
 }
