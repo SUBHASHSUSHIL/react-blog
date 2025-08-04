@@ -1,11 +1,10 @@
-import ModuleCSS from "./ModuleCSS";
+import StyledComponents from "./StyledComponents";
 
 function App() {
   
-
   return (
     <div>
-    <ModuleCSS />
+    <StyledComponents />
     </div>
   ); 
 }
