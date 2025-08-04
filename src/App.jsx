@@ -1,10 +1,10 @@
-import StyledComponents from "./StyledComponents";
+import UseBootstrap from "./UseBootstrap";
 
 function App() {
   
   return (
     <div>
-    <StyledComponents />
+    <UseBootstrap />
     </div>
   ); 
 }
