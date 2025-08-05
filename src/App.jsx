@@ -1,10 +1,10 @@
-import UseFormStatus from "./UseFormStatus";
+import UseTransition from "./UseTransition";
 
 function App() {
   
    return (
     <div>
-      <UseFormStatus />
+      <UseTransition />
     </div>
   ); 
 }
